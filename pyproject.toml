@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Per-FedAvg-PG"
+version = "0.1.0"
+description = "Experiments for Personalized Federated Reinforcement Learning via Model-Agnostic Meta-Learning: Convergence of Exact and Hessian-Free Meta-Policy Gradients."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Ali Beikmohammadi" }]
+dependencies = ["numpy>=1.24", "matplotlib>=3.6"]
+
+[project.urls]
+Homepage = "https://github.com/AliBeikmohammadi/Per-FedAvg-PG"
+
+[tool.setuptools]
+packages = ["per_fedavg_pg"]

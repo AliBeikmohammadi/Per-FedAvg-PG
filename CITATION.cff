@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "Personalized Federated Reinforcement Learning via Model-Agnostic Meta-Learning: Convergence of Exact and Hessian-Free Meta-Policy Gradients"
+authors:
+  - family-names: "Beikmohammadi"
+    given-names: "Ali"
+version: 0.1.0
+date-released: 2026-09-09
+license: MIT
+repository-code: "https://github.com/AliBeikmohammadi/Per-FedAvg-PG"

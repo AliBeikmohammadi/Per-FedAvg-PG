@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+
+# Anonymous-submission-only files: must never reach the public GitHub
+# remote. Kept on disk (untracked) so they're still there when assembling
+# the blind-review supplementary zip with package.py.
+README-anonymous.md
+CITATION-anonymous.cff
+pyproject-anonymous.toml
+package.py
+
+results/e3_exact.npz
+results/e3_fo.npz
+results/e3_fedavg.npz
+results/e4_mh*.npz
+results/e4_fedavg.npz
+*.tmp
